@@ -39,3 +39,10 @@ button{
     cursor: pointer;
     color: white;
 }
+
+@media screen and (max-width: 960px) {
+    
+    .cat{
+        height: fit-content;
+    }
+}

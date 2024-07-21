@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cat{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 50px;
+    touch-action: manipulation;
+    border-radius: 20px;
+    height: 30vh;
+    color: white;
+}
+.back{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+p{
+    width: 50vw;
+    font-size: 20px;
+    
+}
+button{
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 3 3 5;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
